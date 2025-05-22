@@ -1,0 +1,10 @@
+{
+  "@@locale": "ru",
+  "settings": "Настройки",
+  "darkTheme": "Тёмная тема",
+  "language": "Язык",
+  "selectLanguage": "Выберите язык",
+  "english": "Английский",
+  "russian": "Русский",
+  "kazakh": "Казахский"
+}

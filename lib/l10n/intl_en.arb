@@ -1,0 +1,10 @@
+{
+  "@@locale": "en",
+  "settings": "Settings",
+  "darkTheme": "Dark Theme",
+  "language": "Language",
+  "selectLanguage": "Select Language",
+  "english": "English",
+  "russian": "Russian",
+  "kazakh": "Kazakh"
+}
