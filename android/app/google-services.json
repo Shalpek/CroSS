@@ -1,45 +1,38 @@
 {
   "project_info": {
-    "project_number": "1044390602270",
-    "project_id": "cross-b46d0",
-    "storage_bucket": "cross-b46d0.firebasestorage.app"
+    "project_number": "517620440641",
+    "firebase_url": "https://assigment7-c359f-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "assigment7-c359f",
+    "storage_bucket": "assigment7-c359f.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1044390602270:android:da612be2343c3d505e300f",
+        "mobilesdk_app_id": "1:517620440641:android:d78e444a292d2001f5f0c0",
         "android_client_info": {
           "package_name": "com.example.cross"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1044390602270-htbbbj6mpkv12ragkcdpj9p4htnunddv.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.cross",
-            "certificate_hash": "a8d5dab839032e7534ace900ce8dea6c6989a941"
-          }
-        },
-        {
-          "client_id": "1044390602270-5c0nc6eamemdg19mmtac376hiv7k0lsd.apps.googleusercontent.com",
+          "client_id": "517620440641-8bjtfg0gtp8quu8qhqh62apppa8v449u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAMa5FNkOdaDLdz_741oQrnInD5JzlpWug"
+          "current_key": "AIzaSyCwRg6BLV8XeYS28APFYxi-TL8CT_FWM4M"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1044390602270-5c0nc6eamemdg19mmtac376hiv7k0lsd.apps.googleusercontent.com",
+              "client_id": "517620440641-8bjtfg0gtp8quu8qhqh62apppa8v449u.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "1044390602270-42g0r2omb4i4mac5lp51vd9s3287elpt.apps.googleusercontent.com",
+              "client_id": "517620440641-c0qrslng0saejch93q09igk8jgvdg7tg.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.example.cross"

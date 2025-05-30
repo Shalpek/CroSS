@@ -11,6 +11,9 @@ class Session {
   final double lat;
   final double lng;
   final String? imagePath; // путь к изображению (локальный или network)
+  final String city; // город проведения
+  final double price; // цена
+  List<Map<String, String>> participants; // список участников
 
   Session({
     required this.id,
@@ -22,6 +25,9 @@ class Session {
     required this.lat,
     required this.lng,
     this.imagePath,
+    required this.city,
+    required this.price,
+    this.participants = const [],
   });
 
   factory Session.example() => Session(
@@ -35,5 +41,42 @@ class Session {
     lat: 51.1694,
     lng: 71.4491,
     imagePath: null,
+    city: 'Astana',
+    price: 1000,
+    participants: const [],
+  );
+
+  Map<String, dynamic> toMap() => {
+    'id': id,
+    'name': name,
+    'description': description,
+    'dateTime': dateTime.toIso8601String(),
+    'language': language,
+    'vipOnly': vipOnly,
+    'lat': lat,
+    'lng': lng,
+    'imagePath': imagePath,
+    'city': city,
+    'price': price,
+    'participants': participants,
+  };
+
+  factory Session.fromMap(Map<String, dynamic> map) => Session(
+    id: map['id'] as String,
+    name: map['name'] as String,
+    description: map['description'] as String,
+    dateTime: DateTime.parse(map['dateTime'] as String),
+    language: map['language'] as String,
+    vipOnly: map['vipOnly'] as bool,
+    lat: (map['lat'] as num).toDouble(),
+    lng: (map['lng'] as num).toDouble(),
+    imagePath: map['imagePath'] as String?,
+    city: map['city'] as String,
+    price: (map['price'] as num).toDouble(),
+    participants:
+        (map['participants'] as List?)
+            ?.map((e) => Map<String, String>.from(e as Map))
+            .toList() ??
+        [],
   );
 }
